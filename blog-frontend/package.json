@@ -9,12 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/vue3": "^3.0.1",
     "axios": "^1.9.0",
     "element-plus": "^2.9.7",
+    "particles.js": "^2.0.0",
     "pinia": "^3.0.2",
+    "tsparticles": "^3.8.1",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-slim": "^2.12.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
-    "vue-typed-js": "^0.1.2"
+    "vue-typed-js": "^0.1.2",
+    "vue3-particles": "^2.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
