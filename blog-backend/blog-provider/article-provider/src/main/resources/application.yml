@@ -1,0 +1,17 @@
+spring:
+  jackson:
+    time-zone: Asia/Shanghai
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 0
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog427?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 88888888
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapperLocations: classpath:ncg/mapper/*.xml
+server:
+  port: 9801
